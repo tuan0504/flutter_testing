@@ -1,0 +1,36 @@
+name: nntuan
+description: A new Flutter application.
+publish_to: 'none'
+version: 1.0.0+2
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  core:
+    path: packages/core
+  cupertino_icons: ^1.0.6
+  envied: ^0.5.4+1
+  flutter:
+    sdk: flutter
+  get_it: ^7.6.4
+  http: ^1.1.0
+  movies:
+    path: packages/movies
+
+dev_dependencies:
+  bloc_test: ^9.1.5
+  build_runner: ^2.4.10
+  envied_generator: ^0.5.4+1
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  mockito: ^5.4.3
+  mocktail: ^1.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - cert/
